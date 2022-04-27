@@ -1,0 +1,337 @@
+/* Add a black background color to the top navigation */
+h1.white{
+
+  text-decoration-color: #ffffff;
+  color: #ffffff;
+}
+
+
+
+
+body {
+  margin: 0;
+
+}
+
+/*NAVIGATION*/
+
+.top-left{
+  /*white-space: nowrap;*/
+
+  width: 15%;
+  font-size: 17px;
+  background-color: #C12127;
+  justify-content: space-around; 
+  font-weight:bold;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+
+}
+
+.inicial {
+  vertical-align: middle;
+
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+}
+
+
+.topnav {
+  background-color: #C12127;
+  display: inline;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(143, 0, 0);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ff9100;
+  color: white;
+
+}
+
+header {
+  background-image: url('images/city-scape.svg');
+  background-size: cover; 
+
+}
+
+/* HEADER*/
+
+
+.felxx{
+  padding-left: 15px;
+  padding-top:10px;
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+  align-items :center;
+
+}
+
+
+
+.searchbar1 {
+  width:10%; 
+  vertical-align: middle;
+  }
+
+.searchbar2 {
+  font-size: 25px;
+  width:75%; 
+  vertical-align: middle;
+  opacity: 0.2;
+
+}
+
+.searchbar3 {
+  width:10%;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 27px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none ;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  /*cursor: pointer;*/ 
+  background-color: rgba(14, 102, 185, 0.671);
+
+
+  /*width: 100px;*/
+
+}
+        
+.button{
+    
+    position: relative;
+    border-radius: 27px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none ;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    /*cursor: pointer;*/ 
+    background-color: rgba(14, 102, 185, 0.671);
+
+    /*
+    background-color: rgb(203, 56, 55);
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    font-size:20px; 
+    border-radius: 20px; 
+    padding: 5px 20px;
+    height: 35px;
+    width:170px;
+    position: relative; 
+    top: -50px;
+    left:15px;
+    */
+    }
+
+
+
+.header2 {
+
+  width: 300px; /* Can be in percentage also. */
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  right: 130px;
+  bottom: 30px;
+  position: relative;
+  color: #ffffff;
+
+}
+
+
+/* SECTION 1*/
+
+.section1 {
+
+  background-color: rgb(39, 53, 71);
+  display: flex;
+  flex-direction: row;
+  
+
+  justify-content: center;
+
+
+}
+
+.floatt{
+
+  padding-left: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  float: right;
+
+
+}
+
+.sameline {
+
+
+}
+
+.sameline2 {
+
+position: relative;
+
+left: 35px;
+color: #ffffff;
+}
+
+.button2 {
+
+  /*padding-left: 60px;
+  border-radius: 20px;
+  color: blue;
+  font-size: 25px;
+  height: 50px;
+  width: 230px;
+  position: relative;*/
+
+  position: relative;
+  border-radius: 27px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 8px;
+  left: 25px;
+  text-align: center;
+  text-decoration: none ;
+  justify-content: flex-start;
+  font-size: 16px;
+  margin: 4px 2px;
+  /*cursor: pointer;*/ 
+  background-color: rgba(25, 52, 126, 0.493);
+  width: 20%;
+
+}
+
+.section2 {
+
+  width:100%;
+  height:580px;
+  background-image: url("images/forklift.svg");
+  background-size: cover; 
+  padding:0; 
+  margin:0; 
+  position: relative; 
+
+  
+}
+
+.section22 {
+
+width: 25%;
+height: 230px;
+display:flex; 
+flex-direction: column;
+justify-content:space-around;
+color: white;
+position:absolute; 
+top: 27%;
+left: 14%;
+
+
+}
+
+.button3 {
+
+  position: relative;
+  background-color: rgb(49, 69, 88);
+  text-align: center;
+  color: #ffffff;
+  font-size:20px; 
+  border-radius: 20px; 
+  padding: 5px 0;
+  margin-left: 20px;
+  height: 50px;
+  width:150px;
+  margin-bottom:20px;
+  cursor: pointer;
+
+}
+
+
+
+/*SECTION 3*/
+
+.section33 {
+
+display: flex;
+align-items: center;
+justify-content: space-between ;
+
+
+
+}
+
+.mayu  h1 {
+ 
+ color: #000000;
+
+}
+
+.prese  {
+text-align: center;
+width: 100%;
+}
+
+.find {
+
+  text-align  : center;
+  padding: 20px;
+  width:30% ; 
+}
+
+.discover {
+text-align  : center;
+width:30% ; 
+}
+
+.build {
+  text-align  : center;
+  width:30% ; 
+}
+
+.text {
+width: 10 px;
+height: auto;
+
+}
